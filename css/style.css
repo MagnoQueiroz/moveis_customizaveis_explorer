@@ -5,18 +5,19 @@
 }
 
 :root {
-  --orange: #ff9900
+  --orange: #ff9900;
 }
 body {
-  font-family: 'Inter', 'Open Sans';
+  font-family: "Inter", "Open Sans";
 
   /* width: 100vw; */
   height: 568px;
   min-width: 1280px;
   background-color: #ffffff;
 }
-span, a {
-  color: var(--orange)
+span,
+a {
+  color: var(--orange);
 }
 .imagem {
   display: flex;
@@ -27,7 +28,8 @@ main.content {
   margin-top: 72px;
   text-align: center;
 }
-main.content h1 { /*this specificity is 12(element(1) + class(10) + element(1), além de dar peso serve para que eu altere um elemento especifico ao invés de todos */
+main.content h1 {
+  /*this specificity is 12(element(1) + class(10) + element(1), além de dar peso serve para que eu altere um elemento especifico ao invés de todos */
   width: 42%;
   font-family: "Inter";
   font-size: 3.1rem;
@@ -35,7 +37,6 @@ main.content h1 { /*this specificity is 12(element(1) + class(10) + element(1), 
   font-weight: 400; /* pode se colocar por exemplo 'normal'*/
   margin-bottom: 32px;
 }
-
 
 main.content h1 span {
   font-weight: 700;
@@ -50,11 +51,10 @@ main.content .content-text p {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
-  line-height: 28px;/*height line(espaçamento entre uma linha e outra, distancia de uma para outra) */
+  line-height: 28px; /*height line(espaçamento entre uma linha e outra, distancia de uma para outra) */
   text-align: center;
   color: #7d7987;
 }
-
 
 hr {
   margin-top: 72px;
@@ -67,26 +67,25 @@ footer {
 footer .social-media {
   margin-top: 8px;
   text-align: center;
-
 }
 
 .social-media a {
   padding-left: 30px;
-    padding-right: 30px;
+  padding-right: 30px;
 
   text-decoration: none;
 }
 
 .balls {
-  margin-top: -14px;
+  margin-top: -50px;
   text-align: end;
 }
-
-
 
 /* disclaimer's 
 * para que mais de um seletor receba um atributo
 * usamos a seguinte configuração a,p, span {}
 * hex 0 a F em pares de 2 dois para o red, blue, green (6 ao todo) 0 cor preto FF branco absoluto exemple: #FF0000(Red)
 * line 27: entra o conceito de cascata, ou seja um elemento dentro do outro element -> element
+
+* algumas tags como a tem um comportamento inline(a tag tem comportamento de palavra, se comportando como um caractere, esse é o mesmo esquema para se colocar palavras para o que o usuário veja)
 */
