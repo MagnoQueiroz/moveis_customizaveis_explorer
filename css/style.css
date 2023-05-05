@@ -3,11 +3,20 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+:root {
+  --orange: #ff9900
+}
 body {
+  font-family: 'Inter', 'Open Sans';
+
   /* width: 100vw; */
   height: 568px;
   min-width: 1280px;
   background-color: #ffffff;
+}
+span, a {
+  color: var(--orange)
 }
 .imagem {
   display: flex;
@@ -18,18 +27,18 @@ main.content {
   margin-top: 72px;
   text-align: center;
 }
-main.content h1 {
+main.content h1 { /*this specificity is 12(element(1) + class(10) + element(1), além de dar peso serve para que eu altere um elemento especifico ao invés de todos */
   width: 42%;
   font-family: "Inter";
-  font-size: 49px;
+  font-size: 3.1rem;
   line-height: 56px;
-  font-weight: 400;
+  font-weight: 400; /* pode se colocar por exemplo 'normal'*/
   margin-bottom: 32px;
 }
 
+
 main.content h1 span {
   font-weight: 700;
-  color: #ff9900;
 }
 
 main.content .content-text p {
@@ -41,13 +50,11 @@ main.content .content-text p {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 28px;/*height line(espaçamento entre uma linha e outra, distancia de uma para outra) */
   text-align: center;
   color: #7d7987;
 }
-main.content .content-text p span {
-  color: #ff9900;
-}
+
 
 hr {
   margin-top: 72px;
@@ -60,16 +67,26 @@ footer {
 footer .social-media {
   margin-top: 8px;
   text-align: center;
+
 }
 
 .social-media a {
-  padding-left: 40px;
-  
+  padding-left: 30px;
+    padding-right: 30px;
+
   text-decoration: none;
-  color: #ff9900;
 }
 
 .balls {
   margin-top: -14px;
   text-align: end;
 }
+
+
+
+/* disclaimer's 
+* para que mais de um seletor receba um atributo
+* usamos a seguinte configuração a,p, span {}
+* hex 0 a F em pares de 2 dois para o red, blue, green (6 ao todo) 0 cor preto FF branco absoluto exemple: #FF0000(Red)
+* line 27: entra o conceito de cascata, ou seja um elemento dentro do outro element -> element
+*/
