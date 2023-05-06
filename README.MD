@@ -1,4 +1,4 @@
-![imagem](images/assets/imgs-preview.png)
+![imagem](assets/images/imgs-preview.png)
 
 # 💻Tecnologia 
 Este projeto foi desenvolvido em:
