@@ -9,6 +9,7 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Inter", "Open Sans";
   text-align: center;
   background-color: #ffffff;
@@ -91,7 +92,7 @@ a + a {
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
 @media (max-width: 768px) {
   body {
-    width: 100%;
+    padding-bottom: 780px;
   }
 
   .balls img {
@@ -99,10 +100,11 @@ a + a {
   }
   .line {
     border: solid 1px #eceff2;
-    margin-top: 72px;
+    margin-top: 68px;
     width: 23rem;
   }
-}
+ 
+} 
 
 /* disclaimer's 
 * para que mais de um seletor receba um atributo
