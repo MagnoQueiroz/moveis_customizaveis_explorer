@@ -22,9 +22,8 @@ a {
 /* se quiser pode-se colocar o display flex para tentar alinhar melhor */
 main.content {
   width: 100%;
-  max-width:  37rem /*592px*/ ;
+  max-width: 37rem /*592px*/;
   /* height: 579px; */
-
 }
 main.content img {
   margin-bottom: 72px;
@@ -44,7 +43,6 @@ main.content h1 span {
 }
 
 main.content .content-text p {
-  
   margin-bottom: 34px;
   text-align: center;
   font-family: "Open Sans";
@@ -57,7 +55,7 @@ main.content .content-text p {
 
 footer {
   width: 100%;
-  max-width: 37rem;;
+  max-width: 37rem;
 }
 
 footer .social-media {
@@ -73,7 +71,7 @@ a + a {
 
 .social-media a {
   margin-left: 30px;
-  margin-right: 30px; 
+  margin-right: 30px;
 
   text-decoration: none;
 }
@@ -90,26 +88,21 @@ a + a {
   margin-top: -50px;
 }
 
-
-/* 700px para baixo, até 700px */
+/* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
 @media (max-width: 768px) {
- body {
-  width: 100%;
- }
+  body {
+    width: 100%;
+  }
 
-.balls img {
-  display:none
+  .balls img {
+    display: none;
+  }
+  .line {
+    border: solid 1px #eceff2;
+    margin-top: 72px;
+    width: 23rem;
+  }
 }
- .line {
-  border: solid 1px #eceff2;
-  margin-top: 72px;
-  width: 23rem;
-}
-
-
-}
-
-
 
 /* disclaimer's 
 * para que mais de um seletor receba um atributo
