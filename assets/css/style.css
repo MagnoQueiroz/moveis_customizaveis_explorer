@@ -78,6 +78,8 @@ a + a {
 }
 
 .line {
+  height: 0px;
+
   border: solid 1px #eceff2;
   margin-top: 72px;
   width: 568px;
@@ -102,9 +104,9 @@ a + a {
     border: solid 1px #eceff2;
     margin-top: 68px;
     width: 23rem;
+    height: 0px;
   }
- 
-} 
+}
 
 /* disclaimer's 
 * para que mais de um seletor receba um atributo

@@ -1,4 +1,8 @@
-![imagem](assets/images/imgs-preview.png)
+<div align="center">
+<img src="assets/images/imgs-preview.png" width="300px">
+<img src="assets/images/image-mobile.jpeg" width="100px">
+
+</div>
 
 # 💻Tecnologia 
 Este projeto foi desenvolvido em:
