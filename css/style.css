@@ -7,30 +7,30 @@
 :root {
   --orange: #ff9900;
 }
+
 body {
   font-family: "Inter", "Open Sans";
-
-  /* width: 100vw; */
-  height: 568px;
-  min-width: 1280px;
+  text-align: center;
   background-color: #ffffff;
 }
+
 span,
 a {
   color: var(--orange);
 }
-.imagem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+/* se quiser pode-se colocar o display flex para tentar alinhar melhor */
 main.content {
-  margin-top: 72px;
-  text-align: center;
+  width:  37rem /*592px*/ ;
+  /* height: 579px; */
+
 }
+main.content img {
+  margin-bottom: 72px;
+}
+
 main.content h1 {
   /*this specificity is 12(element(1) + class(10) + element(1), além de dar peso serve para que eu altere um elemento especifico ao invés de todos */
-  width: 42%;
   font-family: "Inter";
   font-size: 3.1rem;
   line-height: 56px;
@@ -43,11 +43,9 @@ main.content h1 span {
 }
 
 main.content .content-text p {
-  width: 592px;
+  
   margin-bottom: 34px;
-  /* margin: 0 344px 0 344px; */
   text-align: center;
-
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
@@ -56,14 +54,10 @@ main.content .content-text p {
   color: #7d7987;
 }
 
-hr {
-  margin-top: 72px;
-  width: 568px;
-  border: solid 1px #eceff2;
-}
 footer {
   width: 100%;
 }
+
 footer .social-media {
   margin-top: 8px;
   text-align: center;
@@ -76,9 +70,16 @@ footer .social-media {
   text-decoration: none;
 }
 
+.line {
+  border: solid 1px #eceff2;
+  margin-top: 72px;
+  width: 568px;
+}
+
 .balls {
+  text-align: end;
+  display: block;
   margin-top: -50px;
-  text-align: top;
 }
 
 /* disclaimer's 
@@ -88,4 +89,7 @@ footer .social-media {
 * line 27: entra o conceito de cascata, ou seja um elemento dentro do outro element -> element
 
 * algumas tags como a tem um comportamento inline(a tag tem comportamento de palavra, se comportando como um caractere, esse é o mesmo esquema para se colocar palavras para o que o usuário veja)
+
+* alinhar ao meio além dos meios tradicionais que são o flex temos por meio do margin, se colocar auto ele tentará alinha ao meio automaticamente a partir do espaço livre
+
 */
