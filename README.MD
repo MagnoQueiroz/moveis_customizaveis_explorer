@@ -1,13 +1,11 @@
 <div align="center">
+
 <img src="assets/images/imgs-preview.png" width="300px">
 <img src="assets/images/image-mobile.jpeg" width="100px">
-
 </div>
 
 # 💻Tecnologia
 Este projeto foi desenvolvido em:
-
-
 <div align="center">
 
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
