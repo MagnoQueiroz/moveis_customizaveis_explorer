@@ -21,7 +21,8 @@ a {
 
 /* se quiser pode-se colocar o display flex para tentar alinhar melhor */
 main.content {
-  width:  37rem /*592px*/ ;
+  width: 100%;
+  max-width:  37rem /*592px*/ ;
   /* height: 579px; */
 
 }
@@ -56,16 +57,23 @@ main.content .content-text p {
 
 footer {
   width: 100%;
+  max-width: 37rem;;
 }
 
 footer .social-media {
   margin-top: 8px;
   text-align: center;
 }
+/* a + a <= pode se fazer dessa forma, - dentro de tal elemento, pegue o "A" que tem anterior a ele outro "A" ou seja nesse caso é lido de trás para frente footer a <- a (dentro do footer pegue o elemento que anterior a ele tem um "A" e nesse caso é o segundo "A"
+a + a {
+  margin-left: 30px  só adiciona ao segundo a
+}
+
+*/
 
 .social-media a {
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px; 
 
   text-decoration: none;
 }
@@ -82,6 +90,27 @@ footer .social-media {
   margin-top: -50px;
 }
 
+
+/* 700px para baixo, até 700px */
+@media (max-width: 768px) {
+ body {
+  width: 100%;
+ }
+
+.balls img {
+  display:none
+}
+ .line {
+  border: solid 1px #eceff2;
+  margin-top: 72px;
+  width: 23rem;
+}
+
+
+}
+
+
+
 /* disclaimer's 
 * para que mais de um seletor receba um atributo
 * usamos a seguinte configuração a,p, span {}
@@ -91,5 +120,7 @@ footer .social-media {
 * algumas tags como a tem um comportamento inline(a tag tem comportamento de palavra, se comportando como um caractere, esse é o mesmo esquema para se colocar palavras para o que o usuário veja)
 
 * alinhar ao meio além dos meios tradicionais que são o flex temos por meio do margin, se colocar auto ele tentará alinha ao meio automaticamente a partir do espaço livre
+
+* line 65: pegue um A que anterior a ele tenha um elemento "especifico" que no caso é um A nesse caso se ler da direita para esquerda (pode valer para mais de um elemento contando q ele tenha o elemento especifico anterior a ele)
 
 */
