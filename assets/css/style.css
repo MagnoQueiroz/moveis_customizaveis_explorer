@@ -60,7 +60,6 @@ footer {
 }
 
 footer .social-media {
-  margin-top: 8px;
   text-align: center;
 }
 /* a + a <= pode se fazer dessa forma, - dentro de tal elemento, pegue o "A" que tem anterior a ele outro "A" ou seja nesse caso é lido de trás para frente footer a <- a (dentro do footer pegue o elemento que anterior a ele tem um "A" e nesse caso é o segundo "A"
@@ -71,9 +70,12 @@ a + a {
 */
 
 .social-media a {
+  margin-top: 8px;
+
   margin-left: 30px;
   margin-right: 30px;
-
+  font-size: 14px;
+  line-height: 28px;
   text-decoration: none;
 }
 
@@ -94,8 +96,10 @@ a + a {
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
 @media (max-width: 768px) {
   body {
-    padding-bottom: 780px;
+    padding: 0 15px 780px;
   }
+
+
 
   .balls img {
     display: none;
@@ -103,12 +107,12 @@ a + a {
   .line {
     border: solid 1px #eceff2;
     margin-top: 68px;
-    width: 23rem;
+    max-width: 20rem;
     height: 0px;
   }
 }
 
-/* disclaimer's 
+/* disclaimer's
 * para que mais de um seletor receba um atributo
 * usamos a seguinte configuração a,p, span {}
 * hex 0 a F em pares de 2 dois para o red, blue, green (6 ao todo) 0 cor preto FF branco absoluto exemple: #FF0000(Red)
