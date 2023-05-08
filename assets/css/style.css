@@ -87,27 +87,32 @@ a + a {
   width: 568px;
 }
 
-.balls {
-  text-align: end;
+#balls {
+  /* text-align: end;
   display: block;
-  margin-top: -50px;
+  margin-top: -50px; */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  /* position fixed: deixa um ponto especifico em outro contexto fixo na tela sendo possivel sempre ver ele, o absolute fica acima da tela em outro contexto, podendo adquirir qualquer posição */
 }
 
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
 @media (max-width: 768px) {
-  body {
-    padding: 0 15px 780px;
+  main.content {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
   }
-
-
 
   .balls img {
     display: none;
   }
+
   .line {
     border: solid 1px #eceff2;
     margin-top: 68px;
-    max-width: 20rem;
+    max-width: 23rem;
     height: 0px;
   }
 }
