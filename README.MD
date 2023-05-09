@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/imgs-preview.png" width="540px">
+<img src="assets/images/imgs-preview.png" width="570px">
 <img src="assets/images/image-mobile.jpeg" width="150px">
 </div>
 
