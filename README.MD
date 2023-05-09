@@ -5,10 +5,13 @@
 </div>
 
 # 🔗LINKS:
-<a href="https://moveiscostumizados.netlify.app/"> Link 1:netlify</a>
-<a href="https://synxther.github.io/moveis_customizaveis_explorer/"> Link 2: GITHUB</a>
-<a href="https://moveiscustomizados.vercel.app/"> Link 3: Vencel</a>
 
+<div align="center">
+
+  <a href="https://moveiscostumizados.netlify.app/"> Link 1:netlify</a>
+  <a href="https://synxther.github.io/moveis_customizaveis_explorer/"> Link 2: GITHUB</a>
+  <a href="https://moveiscustomizados.vercel.app/"> Link 3: Vencel</a>
+</div>
 
 
 # 💻Tecnologia
