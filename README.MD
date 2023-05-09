@@ -6,9 +6,9 @@
 
 # 🔗LINKS:
 
-<a href="https://moveiscostumizados.netlify.app/"> 📌Link 1:netlify</a>
+<a href="https://moveiscostumizados.netlify.app/"> 📌Link 1: Netlify</a>
 <br>
-<a href="https://synxther.github.io/moveis_customizaveis_explorer/"> 📌Link 2: GITHUB</a>
+<a href="https://synxther.github.io/moveis_customizaveis_explorer/"> 📌Link 2: Github</a>
 <br>
 <a href="https://moveiscustomizados.vercel.app/"> 📌Link 3: Vencel</a>
 
