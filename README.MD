@@ -4,7 +4,7 @@
 <img src="assets/images/image-mobile.jpeg" width="100px">
 </div>
 
-# 🔗LINKS:
+# 🔗Links para acessar o projeto:
 
 <a href="https://moveiscostumizados.netlify.app/"> 📌Link 1: Netlify</a>
 <br>
