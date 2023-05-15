@@ -54,6 +54,14 @@ main.content .content-text p {
   color: #7d7987;
 }
 
+.line {
+  height: 0px;
+  margin: 72px auto 8px;
+  border: solid 1px #eceff2;
+  margin-top: 72px;
+  width: 568px;
+}
+
 footer {
   width: 100%;
   max-width: 37rem;
@@ -70,21 +78,13 @@ a + a {
 */
 
 .social-media a {
-  margin-top: 8px;
+  /* margin-top: 8px; */
 
   margin-left: 30px;
   margin-right: 30px;
   font-size: 14px;
   line-height: 28px;
   text-decoration: none;
-}
-
-.line {
-  height: 0px;
-
-  border: solid 1px #eceff2;
-  margin-top: 72px;
-  width: 568px;
 }
 
 #balls {
