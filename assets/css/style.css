@@ -21,7 +21,8 @@ a {
 }
 
 /* se quiser pode-se colocar o display flex para tentar alinhar melhor */
-main.content {
+main.content,
+section.content {
   width: 100%;
   max-width: 37rem /*592px*/;
   /* height: 579px; */
@@ -52,6 +53,33 @@ main.content .content-text p {
   line-height: 28px; /*height line(espaçamento entre uma linha e outra, distancia de uma para outra) */
   text-align: center;
   color: #7d7987;
+}
+
+section.moveis h2 {
+  font-family: "Inter";
+  font-size: 2.1rem;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+section.moveis .moImagens img {
+  border-radius: 8px;
+  border: 1px solid #6e6a78;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+section.moveis .moImagens {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 350px 350px 350px;
+  align-items: center;
+  justify-content: center;
+}
+section.moveis .line {
+  max-width: 23rem;
+  opacity: 0.7;
 }
 
 .line {
@@ -99,7 +127,8 @@ a + a {
 
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
 @media (max-width: 768px) {
-  main.content {
+  main.content,
+  section.content {
     /* nesta configuração creio que o codigo entenda que o mínimo de largura que ele terá será de 300(300 pra cima) e o máximo de 760(760 pra baixo)*/
     min-width: 300px;
     width: 100%;
@@ -109,6 +138,23 @@ a + a {
   main.content .content-text p {
     font-size: 14px;
   }
+
+  section.moveis h2 {
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  section.moveis .moImagens img {
+    width: 140px;
+  }
+
+  section.moveis .moImagens {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 140px 140px;
+    align-items: center;
+    justify-content: center;
+  }
+
   .balls img {
     display: none;
   }
