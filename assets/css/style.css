@@ -64,9 +64,10 @@ section.moveis h2 {
 
 section.moveis .moImagens img {
   border-radius: 15px;
-  border: 1px solid #6e6a78;
   width: 350px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 8px;
+  background-color: #fff;
+  padding: 3px;
 }
 
 section.moveis .moImagens {
@@ -76,6 +77,7 @@ section.moveis .moImagens {
   grid-template-columns: 350px 350px 350px;
   align-items: center;
   justify-content: center;
+
 }
 
 .line {
@@ -157,13 +159,13 @@ a + a {
     line-height: 40px;
   }
   section.moveis .moImagens img {
-    width: 180px;
+    width: 175px;
   }
 
   section.moveis .moImagens {
     display: grid;
     gap: 10px;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 175px 175px;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
