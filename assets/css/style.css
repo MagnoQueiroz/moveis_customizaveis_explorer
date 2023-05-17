@@ -141,7 +141,7 @@ a + a {
 }
 
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   main.content,
   section.content {
     /* nesta configuração creio que o codigo entenda que o mínimo de largura que ele terá será de 300(300 pra cima) e o máximo de 760(760 pra baixo)*/
@@ -159,13 +159,13 @@ a + a {
     line-height: 40px;
   }
   section.moveis .moImagens img {
-    width: 175px;
+    width: 170px;
   }
 
   section.moveis .moImagens {
     display: grid;
     gap: 10px;
-    grid-template-columns: 175px 175px;
+    grid-template-columns: 170px 170px;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
