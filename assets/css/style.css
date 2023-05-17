@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Inter", "Open Sans";
   text-align: center;
   background-color: #ffffff;
@@ -77,10 +77,7 @@ section.moveis .moImagens {
   align-items: center;
   justify-content: center;
 }
-section.moveis .line {
-  max-width: 23rem;
-  opacity: 0.7;
-}
+
 
 .line {
   height: 0px;
@@ -125,8 +122,26 @@ a + a {
   /* position fixed: deixa um ponto especifico em outro contexto fixo na tela sendo possivel sempre ver ele, o absolute fica acima da tela em outro contexto, podendo adquirir qualquer posição */
 }
 
+@media (max-width: 950px) {
+
+    section.moveis .moImagens img {
+    width: 350px;
+  }
+
+  section.moveis .moImagens {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: center;
+  }
+  .balls {
+    display: inline-block;
+  }
+}
+
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   main.content,
   section.content {
     /* nesta configuração creio que o codigo entenda que o mínimo de largura que ele terá será de 300(300 pra cima) e o máximo de 760(760 pra baixo)*/
