@@ -162,7 +162,7 @@ a + a {
 
   section.moveis .moImagens {
     display: grid;
-    gap: 10px;
+    gap: 9px;
     grid-template-columns: 180px 180px;
     align-items: center;
     justify-content: center;
