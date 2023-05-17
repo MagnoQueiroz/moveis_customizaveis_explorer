@@ -78,7 +78,6 @@ section.moveis .moImagens {
   justify-content: center;
 }
 
-
 .line {
   height: 0px;
   margin: 72px auto 8px;
@@ -123,8 +122,7 @@ a + a {
 }
 
 @media (max-width: 950px) {
-
-    section.moveis .moImagens img {
+  section.moveis .moImagens img {
     width: 350px;
   }
 
@@ -159,15 +157,16 @@ a + a {
     line-height: 40px;
   }
   section.moveis .moImagens img {
-    width: 140px;
+    width: 190px;
   }
 
   section.moveis .moImagens {
     display: grid;
-    gap: 15px;
-    grid-template-columns: 140px 140px;
+    gap: 10px;
+    grid-template-columns: 190px 190px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 35px;
   }
 
   .balls img {
@@ -176,7 +175,7 @@ a + a {
 
   .line {
     border: solid 1px #eceff2;
-    margin-top: 68px;
+    margin-top: 72px;
     margin: auto;
     max-width: 23rem;
     height: 0px;
