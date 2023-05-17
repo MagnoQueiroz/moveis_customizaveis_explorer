@@ -141,11 +141,11 @@ a + a {
 }
 
 /* max: 700px para baixo, até 700px, ja o min-width seria do 768 pra cima ou seja quando atingir o mínimo de 768> ele começa ele muda(na sua largura minima>)  */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   main.content,
   section.content {
     /* nesta configuração creio que o codigo entenda que o mínimo de largura que ele terá será de 300(300 pra cima) e o máximo de 760(760 pra baixo)*/
-    min-width: 300px;
+    max-width: 400px;
     width: 100%;
     max-width: 760px;
     margin: 0 auto;
